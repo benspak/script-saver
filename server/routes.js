@@ -56,4 +56,30 @@ router.delete('/scripts/:id', async (req, res) => {
   }
 });
 
+// Search scripts by content, title, description, or tags
+router.get('/scripts/search', async (req, res) => {
+  const q = req.query.q || '';
+  if (!q) return res.json([]);
+  let regex;
+  try {
+    regex = new RegExp(q, 'i');
+  } catch (err) {
+    // If regex construction fails, return empty array
+    return res.json([]);
+  }
+  try {
+    const scripts = await Script.find({
+      $or: [
+        { title: regex },
+        { description: regex },
+        { content: regex },
+        { tags: { $elemMatch: { $regex: regex } } },
+      ],
+    });
+    res.json(scripts);
+  } catch (err) {
+    res.status(500).json([]);
+  }
+});
+
 module.exports = router;

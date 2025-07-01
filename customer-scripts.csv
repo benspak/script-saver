@@ -1,0 +1,247 @@
+Script Title,Script content,
+Ac adapter,I created a quote for you to purchase a new AC adapter. You can find it in your account https://system76.com/my-account/orders. Feel free to proceed to checkout at any time.,
+add own hard drive,"You can certainly add your own hard drive. You'll want to add the Sys76 Driver. It's quick and easy though. We have instructions here:
+http://docs.system76.com/articles/restore/
+Please let me know if you have any other questions.",
+Add Own parts,You can upgrade your own components. We just ask that you please contact us prior to installing so we can confirm the brand compatibility and make sure you know how to open the case.,
+determine ip address,ip route get 8.8.8.8 | awk '{print $NF, exit}' (or 'ip a')
+AMD,We're evaluating AMD products and don't have an  ETA for a product featuring their CPUs at this time.,
+Assembly TIme,Standard Assembly time is 6-10 business days. Shipping time varies based on your selection at checkout. Please let me know if you have any other questions.,
+awaiting payment status,"It looks like your card was declined by the bank. Sometimes they put hold on your account for larger transactions. If you give them a call to let them know you're trying to make a purchase with us, they'll be able to lift the hold and we can run the transaction again. Please let me know if you have any questions.",
+UPS access point shows not picked up,"UPS didn't update your tracking number, so it looks like your package hasn't been received, but sometimes that's just an error. Can you confirm you received it? Or let me know how I can assist with UPS please? Thank you.",
+battery purchase,You can order a battery by logging into your System76 account and opening a support ticket. ,
+Cancel Order,Yes it's possible. Is there anything we can do to keep you as a customer? We would regret losing you!,
+card declined,card declined,
+card declined,"If you contact your bank, they can lift whatever hold they have on your account preventing us from processing it. Let me know after you speak with them and we can run it again. It's probably just fraud protection.",
+Create a support ticket,Feel free to login and create a support ticket Visit https://system76.com/my-account/orders and select 'open support case' under the product on your account. We'll be happy to assist!,
+created a quote,This quote is available in your account if you want to modify the components: https://system76.com/my-account/orders,
+Custom image,"Thank you for the order! We install the OS and home on the operating system drive. We use a custom imaging system so it isn't an option to customize the install image. If you end up needing to re-install, we have quick instructions listed here: http://docs.system76.com/articles/restore/",
+Custom partition or UI,"We use a custom imaging system so we can't add any packages or other interfaces to the OS, but you are free to do that once you receive your system.",
+Desktop Environments,"We don't install other desktop environments, but you can add the 
+interface when you receive the system after you create your user account
+ using these instructions: http://support.system76.com/articles/desktop-environment/",
+pop support for non-system76 computer,"""Hello! We can't support non System76 computers in this chat channel, but I have some resources you might want to check out. System76 General Support: http://support.system76.com/ Read the docs at pop.system76.com/docs Join the discussion at reddit.com/r/pop_os Chat with the community at chat.pop-os.org Have a great day!""",
+Desktop Quickstart,"Thank you for the order! We don't send documentation inside the box for the desktop, but we do have a quickstart/FAQ page on our support page if you want to take a look before your desktop arrives. Let me know if you have any questions!
+http://support.system76.com/articles/desktop-quickstart/",
+developer laptop recommendation,"We have a large customer base of developers! The Gazelle and Kudu are 
+great options, with a memory upgrade and i5 or i7 CPU would be perfect 
+for you. Take a look and let me know if you have any questions :)
+https://system76.com/laptops/gazelle
+https://system76.com/laptops/kudu",
+support options new customer,"For technical support, you can call us (720-226-9269), message us or review our support articles.
+To review our support articles: http://support.system76.com/articles/
+To contact support and open a ticket: https://system76.com/my-account/tickets
+Please let me know if you have any questions.",
+UPS Contact to be held for pickup,"If you'd prefer to pick this up from a UPS customer service location, you may do so. The simplest way to do this is to contact UPS directly and make the request.
+
+UPS Phone Number:
+1-800-742-5877
+
+Once you contact them you will provide them with the tracking number we have provided you and request it to be held for pickup. You will need to make sure you have a photo id with you when you go to collect the package.",
+New customer and Pop User,"I'm here for you to assist with any questions that come up. I have some resources you might want to check out.
+System76 General Support: http://support.system76.com/
+Read the docs at pop.system76.com/docs
+Join the discussion at reddit.com/r/pop_os
+Chat with the community at chat.pop-os.org""",
+New Pop User,"We're happy to have you as a customer!
+Check out these Pop resources:
+Read the docs at pop.system76.com/docs
+Join the discussion at reddit.com/r/pop_os
+Chat with the community at chat.pop-os.org",
+Disable Automatic Updates,"To disable automatic updates, you'll press your Ubuntu Key in the bottom left corner, or click on the Ubuntu symbol on the top left side of your display to 'Search Your Computer' and type 'software and updates' and choose the Software and Updates app that shows up in the search. Click on the 'Updates' Tab within the Software and Updates Window and modify your updates as you see fit.",
+Does it have Microsoft and what software does Ubuntu ship with?,"Our computers ship with the Ubuntu Linux operating system. There are no Microsoft programs installed on the machine, but there are free programs included that are equivalent to a variety of Windows programs!
+Ubuntu comes with these main applications:
+Mozilla Firefox- Internet
+Libre Office Suite- Word Processing, spreadheets and presentations
+Shotwell- photo management
+Rhythmbox- Music Player
+Cheese- Webcam
+Thunderbird- Email client
+If you'd like to get familiar with the Ubuntu interface, you can take a quick tour here: http://www.ubuntu.com/tour/en/",
+Don't ship to their country alternative,"We can't ship to China due to trade regulations, I'm sorry. If you know anyone in Hong Kong and can go pick it up, we ship there if you want to explore that as an option.",
+,,
+FAQ Support issues,You can visit our support page for frequently asked questions here: https://system76.com/support,
+Feedback,Thank you for the feedback. We appreciate it!,
+Finance outside US,"Thank you for your interest in our products! The finance option is only 
+available for US customers at this time. We can accept wire transfer or 
+credit card for international orders. Please let me know if you have any
+ other questions.",
+Financing Fail,"Thank you for your interest in our products! The financing didn't go through, but we can accept credit card or wire transfer. Please let me know if you have any questions. I'm happy to assist!",
+general laptop recommendation,"To determine the best laptop, I have a few questions.
+What feature is most important to you on a laptop?
+What size screen do you prefer?
+Do you play games or do any 3D work? Anything that you know requires a dedicated graphics card?
+
+We can narrow down some selections based on your answers :) I look forward to hearing from you!",
+good phone number,"Can you please provide a valid phone number? We call and thank you for the order, advise you of assembly time, and notify you with shipping updates if needed. Thanks!",
+Pop Keyboard shortcuts,http://pop.system76.com/docs/keyboard-shortcuts/,
+,We highlight the differences between Ubuntu and Pop!_OS here: http://pop.system76.com/docs/difference-between-pop-ubuntu/ Please let me know if you have any questions!,
+Hardware Failure General,"Can you please follow all the steps on our hardware failure diagnosis article? http://support.system76.com/articles/hardware-failure/
+
+Please get back to me with results when possible. Thank you!                                ",
+Hasn't completed CC verification in 2 or more days,"We sent an email about completing the credit card verification in order to process your order and haven't heard back from you. Can you please get back to me with the information we requested below? Thank you.
+
+In an effort to combat credit card fraud, we have implemented a quick and easy verification system.
+
+Every credit card transaction from System76 has a unique 5-character code in the description field. Please login to your online banking (or call your card issuing bank) to retrieve the code and respond with the code or login to your system76 account at https://system76.com/my-account/orders
+
+Here is an example of transaction description:
+SYSTEM76 A1B2C
+The A1B2C would be the security code.",
+International Shipping,International shipping details can be found here: https://system76.com/shipping ,
+International Shipping,"Thank you for the order! Here's the information regarding international delivery and how the import process works with UPS. Let me know if you have any questions!
+
+International orders ship via UPS. Generally, shipments are delivered within 4 business days of shipment. UPS will ship your computer to the nearest customs office. Once customs clears the package, you will be contacted for delivery authorization to your residence or place of business. **
+UPS service includes shipment and insurance. System76, Inc. does not collect taxes or duties for orders being shipped internationally. To determine taxes or duties owed, if any, please contact your customs office with both the description of your order and its total price.
+
+System76 manufactures US keyboard layouts on all laptops. You can choose your own language and software-based layout during the first time-user setup. Keyboard stickers may be used to adjust to your specific language.
+
+System76 products are compatible with world wide power grids. You may need to purchase a plug adapter for your computer.
+
+The international warranty does not cover shipping to or from the US if the unit needs repair, but repairs and parts are still covered. You can also use our online support or phone support system. The details of our warranty can be found here: https://system76.com/warranty",
+International support,"The international warranty does not cover shipping to or from the US if the unit needs repair, but repairs and parts are still covered. You can also use our online support or phone support system. The details of our warranty can be found here: https://system76.com/warranty",
+International Taxes,"Tax is not charged on international orders, but it is collected by the UPS driver at the time of delivery. The import tax is your local import rate percentage.
+Please let me know if you have any other questions.",
+Keyboard Layouts,System76 manufactures US keyboard layouts on all laptops. You can choose your own language and software-based layout during the first time-user setup. Keyboard stickers may be used to adjust to your specific language.,
+Larger Battery,We don't have any other battery options on our laptops.,
+,,
+,,
+,,
+Little Foam thing and screws receive with laptop HDD Screws,They are hard drive screws for your additional drive bay if you want to add your own down the road. The bumper helps secure the extra space in between the drive and the case so it isn't loose. You can just put it aside for future use,
+wire transfer,"
+Please use the following information to make a Wire Transfer.
+
+Payable to:
+
+System76, Inc
+4240 Carson St Ste 101
+Denver, CO 80239
+
+Account Number:
+4445929
+
+Beneficiary Bank:
+
+US Wire Transfer:BOK Financial
+One Williams Center
+Tulsa, OK 74172
+ABA/Routing Number: 102000607
+
+International Wire Transfer:
+BOKF, N.A
+One Williams Center
+Tulsa, OK 74172
+ABA/Routing Number: 102000607
+
+SWIFT: BAOKUS44XXX
+
+The full amount received by System76 must be equal to your order total in US dollars.
+We will ship your order after we receive your payment.
+The full amount received by System 76 must be equal to your order total in US dollar.
+Please make sure that eventual fees and service charges are paid for separately
+so they are not deducted from the amount transferred.",
+marketing/sponsor inquiry,"I passed along your message to our community manager, Sri. He'll get back to you as soon as possible :)
+We appreciate your interest in our company and your commitment to advancing open source!",
+mscorefonts drama,"To fix the failed to download message, run this command:
+
+sudo apt purge ttf-mscorefonts-installer",
+new user article support,"Here are some articles I think you'll find helpful.
+
+http://support.system76.com/articles/ubuntu-basics/
+
+The article below is for when you first power on. You can skip to the 2nd half of the article because the Meerkat doesn't apply to the top portion:
+http://support.system76.com/articles/desktop-quickstart/
+
+To add a printer:
+http://support.system76.com/articles/add-a-printer/
+
+To install Google Chrome:
+http://support.system76.com/articles/flash/
+
+Here is the complete list of articles if you're curious:
+http://support.system76.com/
+
+In addition to articles, if you are anxious about any of the steps in the articles, you can call us to do the steps over the phone with you. We want you to be comfortable making the switch to Ubuntu so you don't resort to Mac or Windows, so we are here to support you!",
+Open a Support Ticket,I'll open a support ticket to get this resolved. You'll receive a response as soon as possible.,
+open support case,I'll open a support case for you and a tech will respond as soon as possible.,
+Other Keyboard layouts,We only offer the US keyboard layout laptops. We recommend keyboard stickers for other layouts. Please let me know if you have any other questions.,
+Other Linux Distro?,"We don't install or test any other Linux OS or UI except Ubuntu and Pop!_OS, but you can definitely install another distribution or user interface once you receive your system. Most Linux distributions work without a hitch as long as you're running the current Linux kernel. Our hardware was specifically selected to be as Linux-friendly as possible. We have a System76 Driver that you can install to take care of things like Airplane mode and hot keys, but the majority of fixes are in the Linux Kernel. Our Driver install instructions are here: http://support.system76.com/articles/system76-driver/ Please let me know if you have any other questions.",
+Part purchase support,"We can do that! I'll open a support case and get it moving for you. We'll  need to go to the support ticket to confirm some information, so please follow up within that portal :)",
+Ubuntu partition,"The OS drive is GPT. There are 3 partitions: HDD: {[EFI System Partition
+(ESP), 256 MB] [ / partition (root partition), Drive size - 4GB] [Swap,
+4GB]}
+If you have an extra drive, it's labeled as 'Extra Drive 1'. ",
+Paypal,"We don't accept paypal, but we can take credit card or wire transfer.",
+Prices in USD,"Thank you for your interest in our products! All prices are in USD. International shipping details can be found on the following webpage: https://system76.com/shipping 
+Please let me know if you have any other questions.",
+questions,Please let me know if you have any other questions.,
+questions,Please let me know if you have any other questions. I'm happy to assist!,
+Restore\,We have restore instructions here: http://docs.system76.com/articles/restore/,
+Ship to APO boxes,We don't ship to APO boxes but you can use a freight forwarder like shipitapo.com if you'd like. Please let me know if you have any other questions.,
+Ship to India,"We can't ship to India due to international trade restrictions. The only
+ way to get a laptop would be to come to the US to pick it up or have a friend forward it to you.
+Please let me know if you have any other questions.",
+Ship to Russia,A list of countries we ship to can be found here: https://system76.com/shipping,
+Ship without RAM and hard drive?,"We have to ship with at least the base configuration listed on the Website, but you can add your own components after you receive it. We don't sell the Lemur with Single channel memory above 4 GB, so it would have to ship with the 2 sticks for 8 GB. Please let me know if you have any other questions.",
+Shipping cost DIY,"Shipping cost can be calculated by creating a quote and entering in your address. You'll have a button to 'design and buy' at the top of the sales page on the right. Then after configuring, it will say 'purchase' and after you click purchase, it will have an option to 'create quote' in the top left instead of purchase. ",
+Student Discounts,We don't have student discounts at this time and this is because we want to make our best price available to everyone. Please let me know if you have any other questions.,
+support,I'll get a support case going to get this resolved as soon as possible. You'll receive a response to verify your information in the support ticket if you want to click over there in a minute. https://system76.com/my-account/orders,
+signature required," Just a heads, up, your package will require a signature at the time of delivery. We'll notify you when it ships so you have a few days to plan :)",
+support from social,"I would love to help you in the support system! If you login to your 
+account or provide your email here, we can get a support case going to 
+get this resolved as quickly as possible. Sorry you're experiencing 
+that, but we'll be happy to fix it!
+You can login here: https://system76.com/my-account/orders",
+Ubuntu beginner,"You can take a look at our Ubuntu basics article to get an idea of what you'll see when you log in. 
+http://support.system76.com/articles/ubuntu-basics/",
+Ubuntu Newbie,"If you'd like to get familiar with the Ubuntu interface, you can take a quick tour here: http://www.ubuntu.com/tour/en/",
+upgrade galago,"RAM and hard drives are easily upgradeable. We just ask that you contact us prior to installing so we can give instructions on opening the case :)
+I made a video that shows how easy it is :) https://www.youtube.com/watch?v=Ytq2Ck8Ypk8",
+upgradeable,RAM and hard drives are easily upgradeable. We just ask that you contact us prior to installing so we can give instructions on opening the case :),
+Verification How To,You'll need to look at your online banking to see the 5 character code or call your credit card company and have them read the transaction to you. The transaction will show that you purchased from 'System76 XXXXX' where the Xs' are the characters of the code we need. Then you can provide it back to us so we can process the order.,
+Verification How To,"If you check your online banking or contact the card issuer, the code is provided with our company name in the transaction description. It will show that you purchased from 'System76 xx#x#' and the second part 'xx#x#' is where the code is located. If you still don't see it after that explanation, please let me know!",
+Verification reminder after 1 day,Did you see the message below? Just want to send a reminder so your order doesn't get delayed :),
+Warranty,The details of our warranty can be found here: https://system76.com/warranty,
+What software does Ubuntu ship with?,"Ubuntu comes with these main applications:
+Mozilla Firefox- Internet
+Libre Office Suite- Word Processing, spreadheets and presentations
+Shotwell- photo management
+Rhythmbox- Music Player
+Cheese- Webcam
+Thunderbird- Email client",
+Windows Dual Boot,"We don't install Windows on our machines, but you can use our article to find the Windows Drivers (http://support.system76.com/articles/windows-drivers/) or our support team can supply the Windows Drivers upon request if you need to set up a dual boot. You can also run Windows in a virtual machine using our instructions here: http://support.system76.com/articles/windows/ Please let me know if you have any other questions.",
+wireless troubleshooting,"For troubleshooting, please take a look at this article:
+http://support.system76.com/articles/wireless/
+
+If those methods don't help, we can open a support case.",
+,"If you'd like to get familiar with the Ubuntu interface, you can take a quick tour here: http://www.ubuntu.com/tour/en/",
+,We appreciate the feedback. I'll open a support case to get the return started. You'll be asked to verify some information in the ticket before receiving your RMA #.,
+,We have helpful resources on our support page system76.com/support,
+,"We don't accept paypal, but we accept wire transfer and credit card. Please let me know if you have any questions.",
+,The power supply is 2.1 A and 19V. It weighs .2 lbs. Please let me know if you have any other questions.,
+,"We only install Ubuntu, but we have instructions for adding the desktop environment quickly without removing the underlying Ubuntu install here:
+http://support.system76.com/articles/desktop-environment/",
+,"If you want to do a Google review on us, https://www.google.com/#q=system76
+We appreciate your support!",
+Support Case solved,Glad it's all worked out! Sorry you had that issue in the first place Never hesitate to reach out with any questions or concerns. We're happy to assist!,
+send me stickers,Thank you for the order! We usually include stickers with your order inside a grey envelope in your box.,
+,You can find instructions here: https://docs.google.com/document/d/1B6lt0BwQ7jDz5hk34N2peeugMDWwYb1jaDY9Jxfuovg/edit?usp=sharing,
+Learn more about pop,"
+
+    Read the docs at pop.system76.com/docs
+    Join the discussion at reddit.com/r/pop_os
+    Chat with the community at chat.pop-os.org
+",
+Signature Required,Heads up- it will require a signature at the time of delivery!,
+Contact Klarna about refund,You'll need to contact Klarna about payment details. We've refunded the money to them. You can email them on their contact page: https://www.klarna.com/us/customer-service-mail-form/,
+signature required and Serval/Bonobo ship date,"Thanks for the order! Just a heads up, this is likely shipping the week of Feb 5th and will require a signature at delivery. Let me know if you need to make any changes. Have a great day!",
+,Your system will ship Tuesday and will require a signature at the time of delivery. Your tracking information will show you the estimated delivery on UPS.com if you want to use that to plan. Please let me know if you have any questions. Have a great weekend!,
+Klarna Financing Fail,"Thank you for ordering using our financing partner, Klarna. The transaction in regards to order #### (https://system76.com/my-account/order/#####) was unsuccessful. Please contact Klarna at 844-KLARNA1 for more detailed information regarding the transaction.
+
+If you would like to try placing the order again, we also accept credit card, wire transfer, or check; or you can try placing a new order with Klarna. We look forward to having you as a customer! Please let us know if you have any questions.",
+"hasn't verified, cancelled because of fraud concern","We've been unable to reach you regarding confirming your System76 order and have cancelled it due to fraud concerns. If you'd like to place a new order, please feel free to do so and provide a valid phone number. We will request the credit card verification with the new order as well.",
+Thelio,"Thelio now ships in our normal 6-10 business days. (All current orders will make it out within this amount of time as well.)
+
+Thelio Major R (AMD) Ships in our normal 6-10 business days
+Thelio Major B (Intel) Ships by 1/25. Once this is within our 6-10 business day window we will remove the website notice.
+There is an End Of January ETA on nVidia RTX 2080Ti Blower card options",

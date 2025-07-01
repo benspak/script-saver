@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
-import { Box, Flex, VStack, Text, Tag, Input, Textarea, Button, HStack, Spinner, useToast, IconButton } from '@chakra-ui/react'
-import { AddIcon, DeleteIcon } from '@chakra-ui/icons'
+import { useState, useEffect, useRef } from 'react'
+import { Box, Flex, VStack, Text, Tag, Input, Textarea, Button, HStack, Spinner, useToast, IconButton, InputGroup, InputLeftElement } from '@chakra-ui/react'
+import { AddIcon, DeleteIcon, SearchIcon } from '@chakra-ui/icons'
 import './App.css'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
@@ -12,6 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState(null)
+  const [search, setSearch] = useState('')
   const toast = useToast()
 
   // Fetch all scripts (summary)
@@ -45,6 +46,18 @@ function App() {
         setLoading(false)
       })
   }, [selectedId])
+
+  // Filter scripts in the frontend
+  const filteredScripts = scripts.filter(script => {
+    const q = search.trim().toLowerCase();
+    if (!q) return true;
+    return (
+      script.title?.toLowerCase().includes(q) ||
+      script.description?.toLowerCase().includes(q) ||
+      script.content?.toLowerCase().includes(q) ||
+      (Array.isArray(script.tags) && script.tags.some(tag => tag.toLowerCase().includes(q)))
+    );
+  });
 
   const handleChange = e => {
     const { name, value } = e.target
@@ -158,12 +171,27 @@ function App() {
           zIndex={2}
           position="relative"
         >
+          <InputGroup mb={3}>
+            <InputLeftElement pointerEvents="none">
+              <SearchIcon color="gray.400" />
+            </InputLeftElement>
+            <Input
+              placeholder="Search scripts..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              bg="#191414"
+              color="white"
+              borderRadius="full"
+              border="none"
+              _focus={{ border: '2px solid #1db954', boxShadow: '0 0 0 2px #1db954' }}
+            />
+          </InputGroup>
           <Button leftIcon={<AddIcon />} colorScheme="green" variant="solid" mb={4} onClick={handleCreate} isLoading={saving} borderRadius="full" fontWeight="bold" w="full">
             New Script
           </Button>
           {loading && <Spinner color="green.400" />}
           <VStack align="stretch" spacing={4}>
-            {scripts.map(script => (
+            {filteredScripts.map(script => (
               <Box
                 key={script._id}
                 p={3}
