@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Box, Flex, VStack, Text, Tag, Input, Textarea, Button, HStack, Spinner, useToast, IconButton, InputGroup, InputLeftElement } from '@chakra-ui/react'
-import { AddIcon, DeleteIcon, SearchIcon } from '@chakra-ui/icons'
+import { AddIcon, DeleteIcon, SearchIcon, CopyIcon } from '@chakra-ui/icons'
 import './App.css'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
@@ -153,6 +153,13 @@ function App() {
     }
   }
 
+  const handleCopyContent = () => {
+    if (edit?.content) {
+      navigator.clipboard.writeText(edit.content);
+      toast({ title: 'Script content copied!', status: 'success', duration: 1500 });
+    }
+  };
+
   return (
     <Flex h="100vh" minH="100dvh" bg="#191414" overflow="hidden" justify="center">
       <Box w="1100px" maxW="1100px" mx="auto" display="flex" h="100vh">
@@ -251,16 +258,28 @@ function App() {
                     _focus={{ border: '2px solid #1db954', boxShadow: '0 0 0 2px #1db954' }}
                     w={{ base: 'full', md: 'auto' }}
                   />
-                  <IconButton
-                    icon={<DeleteIcon />}
-                    colorScheme="red"
-                    aria-label="Delete script"
-                    onClick={handleDelete}
-                    isLoading={saving}
-                    borderRadius="full"
-                    bg="#191414"
-                    _hover={{ bg: '#282828' }}
-                  />
+                  <HStack>
+                    <IconButton
+                      icon={<CopyIcon color="white" />}
+                      colorScheme="gray"
+                      aria-label="Copy script content"
+                      onClick={handleCopyContent}
+                      borderRadius="full"
+                      bg="#191414"
+                      _hover={{ bg: '#282828' }}
+                      mr={2}
+                    />
+                    <IconButton
+                      icon={<DeleteIcon />}
+                      colorScheme="red"
+                      aria-label="Delete script"
+                      onClick={handleDelete}
+                      isLoading={saving}
+                      borderRadius="full"
+                      bg="#191414"
+                      _hover={{ bg: '#282828' }}
+                    />
+                  </HStack>
                 </HStack>
                 <HStack flexWrap="wrap">
                   {edit.tags?.map((tag, idx) => (
